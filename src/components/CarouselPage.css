@@ -1,0 +1,74 @@
+/* CarouselPage.css */
+
+.carousel-container {
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Change flex direction to column */
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px; /* Adjust margin-top as needed */
+    margin-bottom: 20px; /* Add margin-bottom to create space between carousel and image */
+    max-width: 600px; /* Set a maximum width for the carousel container */
+    overflow: hidden; /* Hide any content that overflows the container */
+    
+}
+
+.carousel {
+    display: flex;
+    width: 100%; /* Make the carousel fill the entire width of the carousel container */
+    transition: transform 0.5s ease;
+    margin-bottom: 10px; /* Add margin-bottom to separate carousel from dots */
+}
+
+.carousel-slide {
+    flex: 0 0 auto;
+    width: 100%; /* Make each slide fill the entire width of the carousel */
+    padding: 20px;
+    text-align: center;
+}
+
+.carousel-slide h2 {
+    margin-bottom: 10px;
+}
+
+.carousel-slide p {
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px; 
+}
+
+.buttons button {
+    margin: 0px 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #FFB6C1;
+}
+
+/* Navigation dots */
+.dots {
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 15px; 
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin: 0 5px;
+}
+
+.dot.active {
+    background-color: black; /* Active dot color */
+}

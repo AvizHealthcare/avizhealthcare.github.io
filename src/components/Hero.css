@@ -1,0 +1,19 @@
+/* Hero.css */
+
+.hero {
+    position: relative;
+    /* overflow-x: hidden; */
+  }
+  
+  .lady{
+    position: absolute;
+    top: -40px;
+    right: 125px;
+    width: 350px; /* Adjust image width as needed */
+    height: 360px; /* Maintain aspect ratio */
+  }
+  
+  .carousel-container {
+    margin-right: 320px; /* Adjust margin to accommodate image width */
+  }
+  

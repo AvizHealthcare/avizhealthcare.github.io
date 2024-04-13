@@ -1,0 +1,31 @@
+.section-work-data {
+    height: 250px;
+    background: lightblue; /* Change background color */
+    transition: all 0.7s linear;
+    color: white;
+}
+
+.section-work-data-wrapper {
+    width: 100vw;
+    margin: 0px; /* Add margin to the wrapper */
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.counter-numbers {
+    font-size: 4.8rem;
+    margin-bottom: 20px; /* Add margin at the bottom */
+}
+
+.section-work-data p {
+    color: white;
+    text-transform: capitalize;
+    margin-top: 2px; /* Lift the <p> upwards */
+    font-weight: bold;
+    
+}
